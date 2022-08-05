@@ -69,6 +69,11 @@
 
 //Sub-Lesson:Serializing Object
 {
-    
+    let a = {x:1, x:2};
+    let b = JSON.stringify(a);
+    let c = JSON.parse(b);
+
+    console.log(b);
+    console.log(c);
 }
 
