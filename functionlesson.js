@@ -52,7 +52,7 @@
 }
 
 {
-    //this keyword
+    //this keyword as a method invocation
     const a = {
         x:3,
         myFunction:function()
